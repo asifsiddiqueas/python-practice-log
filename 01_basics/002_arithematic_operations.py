@@ -1,7 +1,5 @@
 # Write a Python program to do arithmetical operations addition and division.
 
-
-
 #Addition task
 num1 = float(input("Enter your first number\n"))
 num2 = float(input("Enter your Second number\n"))
