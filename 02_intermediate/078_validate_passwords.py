@@ -1,7 +1,13 @@
+"""
+Validates a comma-separated sequence of passwords against specific complexity criteria ([a-z], [A-Z], [0-9], [$#@], length 6-12).
+Input: A comma-separated string of passwords (e.g., "ABd1234@1,a F1#,2w3E*,2We3345")
+Output: A comma-separated string containing only the valid passwords (e.g., "ABd1234@1")
+"""
+
 import re
 
 def validate_passwords(password_sequence):
-    """Validate comma-separated passwords against complexity rules (len 6-12, upper, lower, num, special)."""
+    
     # lookaheads ensure all character sets are present, while .{6,12} enforces the length constraints
     pattern = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$#@]).{6,12}$"
     
