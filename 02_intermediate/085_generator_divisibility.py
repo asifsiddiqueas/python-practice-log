@@ -1,7 +1,7 @@
 """
 Python program using generator, to generate numbers between 0 and n (inclusive) that are divisible by both 5 and 7.
 Input: An integer n representing the upper limit of the search range.
-Output: Yields string representations of the numbers satisfying the divisibility condition.
+Output: Yields string representations of the numbers satisfying the divisibility condition...
 """
 
 def generate_divisible_by_5_and_7(n):
