@@ -1,7 +1,7 @@
 """
 Computes and formats the Fibonacci Sequence up to n terms using recursion and a list comprehension.
 Input: An integer n from the console representing the number of sequence terms to generate.
-Output: A comma-separated string of the Fibonacci sequence (e.g., "0,1,1,2,3,5,8,13" for n=8).
+Output: A comma-separated string of the Fibonacci sequence (e.g., "0,1,1,2,3,5,8,13" for n=8)...
 """
 
 from functools import lru_cache
