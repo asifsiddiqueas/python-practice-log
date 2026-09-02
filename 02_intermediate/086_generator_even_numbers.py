@@ -1,7 +1,7 @@
 """
 Python Program to generate even numbers between 0 and n (inclusive) using an optimized range step.
 Input: An integer n representing the upper limit of the sequence.
-Output: Yields string representations of the even numbers.
+Output: Yields string representations of the even numbers...
 """
 
 def generate_even_numbers(n):
