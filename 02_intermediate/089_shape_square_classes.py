@@ -1,7 +1,7 @@
 """
 Python program to Defines a base Shape class and a Square subclass to calculate and print geometric areas.
 Input: A numeric length argument passed to the Square class upon initialization.
-Output: Prints the calculated area (length squared for Square, default 0 for generic Shape).
+Output: Prints the calculated area (length squared for Square, default 0 for generic Shape)..
 """
 class Shape:
     """Base class representing a general geometric shape."""
