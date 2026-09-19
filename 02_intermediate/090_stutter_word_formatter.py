@@ -6,7 +6,7 @@ Output: A formatted string representing the stuttered word (Example: "in... in..
 
 def stutter(word):
     
-    # extract the first two characters and format
+    # extracts the first two characters and format
     first_two = word[:2]
     return f"{first_two}... {first_two}... {word}?"
 
