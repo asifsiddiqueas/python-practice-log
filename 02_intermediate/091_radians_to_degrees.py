@@ -1,6 +1,6 @@
 """
 Python program to create a function that takes an angle in radians and returns the corresponding angle
-in degrees rounded to one decimal place.
+in degrees rounded to one decimal place..
 
 Examples:
     radians_to_degrees(1) -> 57.3
